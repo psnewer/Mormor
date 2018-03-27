@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/outerLayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   <RelativeLayout android:id="@id/mainDrawingViews" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="0dip" android:scaleType="center" android:layout_weight="1.0" >
+        <ImageView android:id="@id/picview" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" android:adjustViewBounds="false"/>  
+        <org.opencv.Mormor.DrawingPanel android:id="@id/lineView" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" android:adjustViewBounds="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <org.opencv.Mormor.FireWall android:id="@+id/fireView" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" android:adjustViewBounds="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />             
+        <ImageView android:id="@id/sigView" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" android:adjustViewBounds="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>    
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/toolboxes" android:layout_width="fill_parent" android:layout_height="122dp" android:layout_marginTop="-122.0dp">
+        <LinearLayout android:id="@id/paintToolbox" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:baselineAligned="false">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.2" android:layout_marginLeft="10dp">
+                <ImageButton android:id="@id/colorPick1" android:layout_width="90.0dp" android:layout_height="60.0dp" android:background="@drawable/contour" />
+                <ImageButton android:id="@id/colorPick2" android:layout_width="90.0dp" android:layout_height="60.0dp" android:background="@drawable/eraser" android:layout_marginTop="2dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.2" android:layout_marginLeft="10dp">
+                <ImageButton android:id="@id/colorPick3" android:layout_width="90.0dp" android:layout_height="60.0dp" android:background="@drawable/pencil" />
+                <ImageButton android:id="@id/colorPick4" android:layout_width="90.0dp" android:layout_height="60.0dp" android:background="@drawable/shift" android:layout_marginTop="2dp"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.2" android:layout_marginLeft="10dp">
+                <ImageButton android:id="@id/colorPick5" android:layout_width="90.0dp" android:layout_height="60.0dp" android:background="@drawable/lineselect"/>
+                <ImageButton android:id="@id/colorPick6" android:layout_width="90.0dp" android:layout_height="60.0dp" android:background="@drawable/contourshift" android:layout_marginTop="2dp"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.2" android:layout_marginLeft="10dp">
+                <ImageButton android:id="@id/colorPick7" android:layout_width="90.0dp" android:layout_height="60.0dp" android:background="@drawable/firewall"/>
+                <ImageButton android:id="@id/colorPick8" android:layout_width="90.0dp" android:layout_height="60.0dp" android:background="@drawable/clear" android:layout_marginTop="2dp"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.2" android:layout_marginLeft="10dp">
+                <ImageButton android:id="@id/undo" android:layout_width="90.0dp" android:layout_height="60.0dp" android:background="@drawable/undo"/>
+                <ImageButton android:id="@id/redo" android:layout_width="90.0dp" android:layout_height="60.0dp" android:background="@drawable/redo" android:layout_marginTop="2dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/loadsaveToolbox" android:gravity="center_vertical" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"  android:baselineAligned="false">
+            <ImageButton android:id="@id/savePhoto" android:layout_marginLeft="20dp" android:background="@drawable/exportlarge"  android:layout_width="64.0dp" android:layout_height="64.0dp"/>               
+            <ImageButton android:id="@id/pickPhoto" android:layout_marginLeft="20dp" android:background="@drawable/loadsessionlarge" android:layout_width="64.0dp" android:layout_height="64.0dp"/>              
+            <ImageButton android:id="@id/takePhoto" android:layout_marginLeft="20dp" android:background="@drawable/camera" android:layout_width="64.0dp" android:layout_height="64.0dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="bottom" android:baselineAligned="false">
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.2">
+            <ImageButton android:id="@id/openLoadSave" android:layout_width="64.0dp" android:layout_height="64.0dp" android:background="@drawable/importicon"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.2">
+            <ImageButton android:id="@id/editBox" android:layout_width="64.0dp" android:layout_height="64.0dp" android:background="@drawable/painttoolboxbutton"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.2">
+            <ImageButton android:id="@id/slidersEditBtn" android:layout_width="64.0dp" android:layout_height="64.0dp" android:background="@drawable/magisketch"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.2">
+            <ImageButton android:id="@id/share" android:layout_width="64.0dp" android:layout_height="64.0dp" android:background="@drawable/share"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.2">
+            <ImageButton android:id="@id/infoOpen" android:layout_width="64.0dp" android:layout_height="64.0dp" android:background="@drawable/info"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

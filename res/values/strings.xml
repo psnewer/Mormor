@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">New Morph</string>
+    <string name="EDGEPREFCHECK">Prior to select edge point</string>
+    <string name="SAVE_LOW_RES">Low Resolution</string>
+    <string name="SAVE_HIGH_RES">High Resolution</string>
+    <string name="CANCEL">Cancel</string>
+    <string name="ERROR">Error:</string>
+    <string name="SAVE_FAILED">Save failed</string>
+    <string name="BRUSH_SIZE">Brush Size</string>
+    <string name="ERROR_LOAD">Error: Unable to load saved image</string>
+    <string name="ABOUT_WINDOW">"New-Morph is an image deformation tool. You can reshape the contour to reshape the objects on the image, keeping the area nearby unchanged. The contour can either be generated automatically or be drawn、erased and fixed by yourself.
+
+We suggest you get the contour by system firstly, then fix the contour using the tools we provide. The small flaws on the contour will be fixed by system automatically. It may tack minutes to get the contour, but the result will be amazing.
+
+After generate the deformed picture, please slide the sliders again to adjust the distinctness in the deformation area before you dismiss the morphing dialog.
+
+We hope you enjoy using it. Have a problem? Have a question? We're here to help: "<a href="mailto:adnewer@Gmail.com">Email us</a>.</string>
+    <string name="CLEAR_ALL_SETTINGS">Morphing Instruction</string>
+    <string name="SAVE_IMAGE_TITLE">Save/Export Image</string>
+    <string name="FIREWALL">Select lines to cut off the area reshaped,please select two endpoints of every cutting line</string>
+    <string name="PENCIL3">Then you can draw a line starts from the flag anywhere</string>
+    <string name="CONTOUR_CONNECTION">Getting contour failed,please fix the contour</string>
+    <string name="EDGE_PREFSET">Long click to set whether to preferentially select edge point or not</string>
+    <string name="BRUSHSIZESET">Long click to set brush size</string>
+    <string name="sliderTitle">Morphing</string>
+    <string name="reloadTitle">Warning:</string>
+    <string name="PIC11">Draw a contour to reshape</string>
+    <string name="PIC12">Select the start point of the contour</string>
+    <string name="PIC13">Select the end point of the contour</string>
+    <string name="PIC14">Select a drag point  to drag</string>
+    <string name="PIC15">Click on the screen to relocate the drag point</string>
+    <string name="PIC16">Slide the sliders to reshape the contour</string>
+    <string name="PIC18">Slide the sliders again to adjust its distinctness</string>
+    <string name="PIC17">Generate a new picture</string>
+    <string name="PIC21">Generate contour automatically</string>
+    <string name="PIC22">Add or erase the contour</string>
+    <string name="PIC24">Shift to another contour to reshape,you only need to select a drag point, the endpoints keep unchanged</string>
+    <string name="PIC23">Reshape the first contour</string>
+    <string name="PIC25">Generate a new picture</string>
+    <string name="PIC26">Reshape another eye</string>
+    <string name="SMOOTHNESS">Smoothness</string>
+    <string name="SCALE">Scale</string>
+    <string name="GENERATE">Generate</string>
+    <string name="PENCILSHIFT">Click on the screen to select the start point of the line to be drawn</string>
+    <string name="Save">Save</string>
+    <string name="TeachTitle">Morphing Methods</string>
+    <string name="START">START</string>
+    <string name="SELECTENDPOINT">Select the end point of the contour</string>
+    <string name="SELECTDRAGPOINT">Select a drag point</string>
+    <string name="SELECTSTARTPOINT">Select the start point of the contour</string>
+    <string name="SELECTFIRSTF">Select the start point of the cutting line</string>
+    <string name="SELECTSECONDF">Select the end point of the cutting line</string>
+    <string name="SLIDEAGAIN">Slide the sliders to adjust the distinctness</string>
+    <string name="RECLICK">Click on the screen again to reset</string>
+    <string name="SHAREPIC">Share Picture</string>
+    <string name="SHARE">Share to</string>
+</resources>

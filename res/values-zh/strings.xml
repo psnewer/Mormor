@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">新变形</string>
+    <string name="EDGEPREFCHECK">优先选择轮廓点</string>
+    <string name="SAVE_LOW_RES">低分辨率</string>
+    <string name="SAVE_HIGH_RES">高分辨率</string>
+    <string name="CANCEL">退出</string>
+    <string name="Save">保存</string>
+    <string name="ERROR">错误：</string>
+    <string name="SAVE_FAILED">保存失败</string>
+    <string name="BRUSH_SIZE">橡皮擦尺寸</string>
+    <string name="ERROR_LOAD">错误：无法载入图片</string>
+    <string name="ABOUT_WINDOW">"新变形是一个图像变形工具。您可以通过改变图片上的轮廓线的形状来改变图片上物体的形状，同时保持非变形区域不受影响。轮廓线可以自动生成，也可以由您手动增加、擦除或修复。
+    
+我们建议您首先由软件自动生成轮廓线，在此基础上使用软件提供的工具再对轮廓线进行修复，轮廓线上小的瑕疵可以忽略，由软件自动修复。整个过程可能会持续几分钟，但是在此基础上您将得到惊喜的变形图片。
+
+生成变形图片之后,在退出对话框之前您还可以继续滑动滑块以调节变形区域的清晰度。
+
+我们希望您玩得高兴，有问题请联系邮箱："<a href="mailto:adnewer@Gmail.com">发送邮件</a>。</string>
+    <string name="CLEAR_ALL_SETTINGS">变形教程</string>
+    <string name="SAVE_IMAGE_TITLE">保存图片</string>
+    <string name="FIREWALL">选择线条以切断变形区域,您只需要选择每条截断线的两个端点</string>
+    <string name="PENCIL3">之后您可以从任何地方画一条起始于该点的线</string>
+    <string name="CONTOUR_CONNECTION">获取轮廓线失败，请修复轮廓线</string>
+    <string name="EDGE_PREFSET">长按以设置是否优先选择轮廓线上的点</string>
+    <string name="BRUSHSIZESET">长按以设置橡皮擦尺寸</string>
+    <string name="sliderTitle">变形</string>
+    <string name="reloadTitle">警告</string>
+    <string name="PIC11">画一条用来变形的轮廓线</string>
+    <string name="PIC12">选择轮廓线的第一个端点</string>
+    <string name="PIC13">选择轮廓线的另一个端点</string>
+    <string name="PIC14">选择一个拖动点</string>
+    <string name="PIC15">点击屏幕以重新放置拖动点</string>
+    <string name="PIC16">滑动滑块以改变轮廓线的形状</string>
+    <string name="PIC18">再次滑动滑块以调整清晰度</string>
+    <string name="PIC17">生成变形图片</string>
+    <string name="PIC21">自动生成轮廓线</string>
+    <string name="PIC22">添加或擦除轮廓线</string>
+    <string name="PIC24">切换到另一条轮廓线,该轮廓线的端点保持不变，您只需要选择一个拖动点</string>
+    <string name="PIC23">改变第一条轮廓线的形状</string>
+    <string name="PIC25">生成变形图片</string>
+    <string name="PIC26">变形另一只眼睛</string>
+    <string name="SMOOTHNESS">光滑度</string>
+    <string name="SCALE">大小</string>
+    <string name="GENERATE">生成</string>
+    <string name="PENCILSHIFT">点击屏幕以选择所画线的起始点</string>
+    <string name="TeachTitle">变形方法</string>
+    <string name="START">开始</string>
+    <string name="SELECTENDPOINT">请选择轮廓线的终点</string>
+    <string name="SELECTSTARTPOINT">请选择轮廓线的起点</string>
+    <string name="SELECTDRAGPOINT">请选择一个拖动点</string>
+    <string name="SELECTSECONDF">请选择截断线的终点</string>
+    <string name="SELECTFIRSTF">请选择截断线的起点</string>
+    <string name="SLIDEAGAIN">请滑动滑块以调节清晰度</string>
+    <string name="RECLICK">再次点击以更新起点</string>
+    <string name="SHAREPIC">分享图片</string>
+    <string name="SHARE">分享到</string>
+</resources>

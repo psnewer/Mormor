@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">تغيير  جديدة</string>
+    <string name="EDGEPREFCHECK">الخيار الأولي لنقاط الهيكل</string>
+    <string name="SAVE_LOW_RES">نسبة القرار المنخفضة</string>
+    <string name="SAVE_HIGH_RES">نسبة القرار المرتفعة</string>
+    <string name="CANCEL">خروج</string>
+    <string name="Save">حفظ</string>
+    <string name="ERROR">خطأ:</string>
+    <string name="SAVE_FAILED">فشل الحفظ</string>
+    <string name="BRUSH_SIZE">أبعاد الممحاة</string>
+    <string name="ERROR_LOAD">خطأ: لا يمكن تحميل الصورة</string>
+    <string name="ABOUT_WINDOW">"إن تغيير جديد هو أداة تغير الصور. ويمكنكم تغيير شكل المواد على الأشكال من خلال تغيير شكل الخط الكنتوري على الصور، كما تحفظ مناطق غير مغيرة ثابتة بدون تأثير. وينشأ الخط الكنتوري تلقائيا، كما يمكنكم القيام بإضافة أو حذف أو تعديلها يدويا.
+
+نقترح لكم أن تنشأ الخط الكنتوري بالبرنامج تلقائيا ويستعمل الأداة المزودة بالبرنامج على هذا الأساس لإصلاح الخط الكنتوري ويمكن إهمال العيوب على الخط الكنتوري وتصلح بالبرنامج أوتوماتيكيا. وخلال هذه العملية، ربما يستمر لعدة الدقائق، لكن سوف تحصل على صور التغيير العجيبة به.
+
+بعد إنشاء صور التغيير، قبل الخروج من الحوار يمكنكم مواصلة إزلاق لوحة الانزلاق لضبط وضوح منطقة التغيير.
+
+نتمنى أن تلعب بسعادة وإن كان سؤال فاتصل بالايميل："<a href="mailto:adnewer@Gmail.com">إرسال الايميل</a>.</string>
+    <string name="CLEAR_ALL_SETTINGS">برنامج تدريس التغيير</string>
+    <string name="SAVE_IMAGE_TITLE">حفظ الصورة</string>
+    <string name="FIREWALL">اختر الخط لقطع منطقة التغيير وتحتاج إلى مجرد خيار طرفين على كل خط مقطوع</string>
+    <string name="PENCIL3">بعد ذلك، يمكنكم وضع خط من أي مكان ببداية هذه النقطة</string>
+    <string name="CONTOUR_CONNECTION">فشل الحصول على الخط الكنتوري ، أصلح الخط الكنتوري</string>
+    <string name="EDGE_PREFSET">اضغطه لأجل طويل لإعداد ما إذا كان يختار النقطة على الخط الكنتوري</string>
+    <string name="BRUSHSIZESET">اضغطه لأجل طويل في إعداد أبعاد الممحاة</string>
+    <string name="sliderTitle">تغيير شكل</string>
+    <string name="reloadTitle">تحذير</string>
+    <string name="PIC11">رسم خط كنتوري للتغير</string>
+    <string name="PIC12">اختر أول نقطة طرفية للخط الكنتوري</string>
+    <string name="PIC13">اختر النقطة الطرفية الأخرى للخط الكنتوري</string>
+    <string name="PIC14">اختر نقطة تحريك</string>
+    <string name="PIC15">انقر الشاشة لإعادة وضع نقطة التحريك</string>
+    <string name="PIC16">حرك لوحة التحريك لتغيير شكل الخط الكنتوري</string>
+    <string name="PIC18">حرك لوحة التحريك مرة ثانية لضبط الوضوح</string>
+    <string name="PIC17">إنشاء شكل التغيير</string>
+    <string name="PIC21">الإنشاء الأوتوماتيكي لالخط الكنتوري</string>
+    <string name="PIC22">إضافة أو حذف الخط الكنتوري</string>
+    <string name="PIC24">يحول إلى الخط الكنتوري الآخر وتحفظ النقطة الطرفية لالخط الكنتوري هذا ثابتة وتحتاج إلى مجرد خيار نقطة تحريك واحدة</string>
+    <string name="PIC23">تغيير شكل أول خط هيكل</string>
+    <string name="PIC25">إنشاء صورة تغيير</string>
+    <string name="PIC26">تغيير عين أخرى</string>
+    <string name="SMOOTHNESS">نعومة</string>
+    <string name="SCALE">أبعاد</string>
+    <string name="GENERATE">إنشاء</string>
+    <string name="PENCILSHIFT">انقر الشاشة لخيار بداية الخط</string>
+    <string name="TeachTitle">طريقة تغيير</string>
+    <string name="START">بداية</string>
+    <string name="SELECTENDPOINT">اختر نهاية الخط الكنتوري</string>
+    <string name="SELECTSTARTPOINT">اختر بداية الخط الكنتوري</string>
+    <string name="SELECTDRAGPOINT">اختر نقطة تحريك</string>
+    <string name="SELECTSECONDF">اختر نهاية قطع السلك</string>
+    <string name="SELECTFIRSTF">اختر بداية قطع السلك</string>
+    <string name="SLIDEAGAIN">أزلق لوحة الانزلاق لضبط الوضوح</string>
+    <string name="RECLICK">انقره للمرة الثانية لتجديد النقطة البدائية</string>
+    <string name="SHAREPIC">حصة الصور</string>
+    <string name="SHARE">حصة ل</string>
+</resources>

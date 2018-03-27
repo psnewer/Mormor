@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="save_resolution">        
+     <item>低分辨率</item>            
+     <item>高分辨率</item>                   
+  </string-array>
+</resources>

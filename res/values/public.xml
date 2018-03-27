@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="icon_checkmark" id="0x7f020008" />
+    <public type="drawable" name="toonfx_logo_rainbow" id="0x7f02003e" />
+    <public type="drawable" name="clear" id="0x7f020001" />
+    <public type="drawable" name="importicon" id="0x7f020030" />
+    <public type="drawable" name="info" id="0x7f020032" />
+    <public type="drawable" name="painttoolboxbutton" id="0x7f020038" />
+    <public type="drawable" name="progress" id="0x7f020039" />
+    <public type="drawable" name="redo" id="0x7f02003a" />
+    <public type="drawable" name="undo" id="0x7f02003f" />
+    <public type="layout" name="aboutlayout" id="0x7f030000" />
+    <public type="layout" name="basicsliders" id="0x7f030001" />
+    <public type="layout" name="brushsizedialog" id="0x7f030002" />
+    <public type="string" name="app_name" id="0x7f040000" />
+    <public type="string" name="SAVE_LOW_RES" id="0x7f040020" />
+    <public type="string" name="SAVE_HIGH_RES" id="0x7f040021" />
+    <public type="string" name="CANCEL" id="0x7f040024" />
+    <public type="string" name="BRUSH_SIZE" id="0x7f040026" />
+    <public type="style" name="doNotDim" id="0x7f050000" />
+    <public type="id" name="aboutText" id="0x7f060000" />
+    <public type="id" name="clearAllSettings" id="0x7f060002" />
+    <public type="id" name="sliderDialogBasic" id="0x7f060003" />
+    <public type="id" name="edgesLabel" id="0x7f060004" />
+    <public type="id" name="edgesSlider" id="0x7f060005" />
+    <public type="id" name="grayLabel" id="0x7f060006" />
+    <public type="id" name="graySlider" id="0x7f060007" />
+    <public type="id" name="blackLabel" id="0x7f060008" />
+    <public type="id" name="blackSlider" id="0x7f060009" />
+    <public type="id" name="brushSizeView" id="0x7f060017" />
+    <public type="id" name="brushSizeSlider" id="0x7f060018" />
+    <public type="id" name="mainDrawingViews" id="0x7f060024" />
+    <public type="id" name="picview" id="0x7f060026" />
+    <public type="id" name="toolboxes" id="0x7f060027" />
+    <public type="id" name="paintToolbox" id="0x7f060028" />
+    <public type="id" name="colorPick1" id="0x7f060029" />
+    <public type="id" name="colorPick2" id="0x7f06002a" />
+    <public type="id" name="colorPick3" id="0x7f06002b" />
+    <public type="id" name="colorPick4" id="0x7f06002c" />
+    <public type="id" name="colorPick5" id="0x7f06002d" />
+    <public type="id" name="colorPick6" id="0x7f06002e" />
+    <public type="id" name="colorPick7" id="0x7f06002f" />
+    <public type="id" name="colorPick8" id="0x7f060030" />
+    <public type="id" name="undo" id="0x7f060031" />
+    <public type="id" name="redo" id="0x7f060032" />
+    <public type="id" name="savePhoto" id="0x7f06003a" />
+</resources>

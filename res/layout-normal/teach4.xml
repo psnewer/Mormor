@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:padding="5dp" android:background="@drawable/img_on"
+  xmlns:android="http://schemas.android.com/apk/res/android"> 
+   <ImageView  android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:scaleType="centerCrop" android:adjustViewBounds="false" android:src="@drawable/pic17"/>   
+      <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+           <ImageView android:layout_width="32.0dp" android:layout_height="32.0dp" android:background="@drawable/mouse_generate"/>                  
+           <TextView android:text="@string/PIC17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:textSize="20sp" android:textColor="#000000"/>        
+      </LinearLayout>   
+   <ImageView  android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:scaleType="centerCrop" android:adjustViewBounds="false" android:src="@drawable/pic18"/>   
+      <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+           <ImageView android:layout_width="32.0dp" android:layout_height="32.0dp" android:background="@drawable/mouse_seekbar"/>                   
+           <TextView android:text="@string/PIC18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:textSize="20sp" android:textColor="#000000"/>        
+      </LinearLayout>  
+</LinearLayout>

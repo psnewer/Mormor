@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/doNotDim"  android:id="@id/sliderDialogBasic"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:id="@id/sliderTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sliderTitle" android:textSize="15sp" android:textColor="#FFFFFF" android:layout_marginLeft="10dp"/>
+        <TextView android:id="@id/sigLabel" android:layout_width="wrap_content" android:layout_height="30.0dp" android:text="@string/SMOOTHNESS" android:layout_marginTop="10.0dp" android:layout_below="@id/sliderTitle"/>
+        <SeekBar android:id="@id/sigSlider" android:layout_width="200.0dp" android:layout_height="30.0dp" android:max="100" android:progressDrawable="@drawable/progress" android:layout_alignParentRight="true" android:layout_marginTop="10.0dp" android:layout_below="@id/sliderTitle"/>
+        <TextView android:id="@id/scaleLabel" android:layout_width="wrap_content" android:layout_height="30.0dp" android:layout_marginTop="20.0dp" android:text="@string/SCALE" android:layout_below="@id/sigLabel" />
+        <SeekBar android:id="@id/scaleSlider" android:layout_width="200.0dp" android:layout_height="30.0dp" android:layout_marginTop="20.0dp" android:max="100" android:progressDrawable="@drawable/progress" android:layout_below="@id/sigSlider" android:layout_alignParentRight="true" />       
+        <ImageButton android:id="@id/sliderdismissBtn" android:layout_width="40.0dp" android:layout_height="40.0dp" android:layout_below="@id/scaleLabel" android:background="@drawable/icon_checkmark" android:layout_marginTop="20dp" android:layout_marginLeft="5dp"/>
+        <Button android:id="@id/Generate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingTop="5dp" android:paddingBottom="5dp" android:paddingLeft="10dp" android:paddingRight="10dp" android:background="@drawable/generatebackground" android:layout_below="@id/scaleLabel" android:layout_toRightOf="@id/sliderdismissBtn" android:layout_alignBaseline="@id/sliderdismissBtn" android:text="@string/GENERATE"  android:textColor="#ffffff" android:textSize="20sp" android:layout_marginLeft="30dp" android:layout_marginTop="20dp"/>
+</RelativeLayout>

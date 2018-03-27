@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  >
+   <LinearLayout android:orientation="horizontal" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+           <ImageView android:layout_marginLeft="10dp" android:layout_width="32.0dp" android:layout_height="32.0dp" android:background="@drawable/ic_launcher"/>        
+           <TextView android:text="@string/TeachTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:textSize="20sp" android:textColor="#ffffff"/>        
+   </LinearLayout> 
+   <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0dip" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_weight="1">  
+     <ImageButton android:layout_gravity="center_vertical" android:id="@id/previous" android:layout_width="24.0dp" android:layout_height="24.0dp" android:background="@drawable/previous"/>
+     <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />    
+     <ImageButton android:layout_gravity="center_vertical" android:id="@id/next" android:layout_width="24.0dp" android:layout_height="24.0dp" android:background="@drawable/next"/>
+    </LinearLayout>
+  <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_gravity="bottom">
+        <LinearLayout  
+                android:id="@id/indicator_group"  
+                android:layout_width="0dip"  
+                android:layout_height="fill_parent"  
+                android:gravity="center"  
+                android:orientation="horizontal"
+                android:layout_weight="1" >  
+         </LinearLayout>
+         <Button android:id="@id/start" android:layout_width="wrap_content" android:layout_height="48dp" android:gravity="left|center_vertical" android:paddingLeft="5dp" android:paddingRight="20dp" android:background="@drawable/start" android:layout_marginRight="30dp" android:text="@string/START" android:textSize="20sp" android:textColor="#ffffff"/>
+  </LinearLayout>
+
+</LinearLayout>

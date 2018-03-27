@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">Nueva Morph</string>
+    <string name="EDGEPREFCHECK">Seleccionar los puntos del contorno</string>
+    <string name="SAVE_LOW_RES">resolución baja</string>
+    <string name="SAVE_HIGH_RES">resolución alta</string>
+    <string name="CANCEL">salir</string>
+    <string name="Save">guardar</string>
+    <string name="ERROR">error：</string>
+    <string name="SAVE_FAILED">fallo de guardar</string>
+    <string name="BRUSH_SIZE">tamaño del borrador</string>
+    <string name="ERROR_LOAD">Error: No se puede cargar la imagen </string>
+    <string name="ABOUT_WINDOW">"Nueva Morph es una herramienta para editar y deformar las imagenes.Puede cambiar las líneas de contorno en la imagen para realizar deformación del objeto de la imagen,mientras mantiene la zona sin deformación no afectada. La linea del contorno se pueden generar automáticamente,también puede agregar, borrar o reparar manualmente.
+ 
+Le recomendamos que dejale generar automáticamente la linea del contorno por el software, utiliza herramientas proporcionadas para la reparación sobre la base de la línea del contorno. Puede ignorar los pequeños defectos de la linea contorno, el software se recuperará automaticamente. Todo el proceso puede durar unos minutos, pero sobre esta base, tendrá una sorpresa de imagen deformada.
+
+Después de generar la imagen, usted puede seguir deslizando el control deslizante para ajustar la definición de la zona deformada Antes de salir del diálogo.
+
+Esperamos que tenga un buen momento, cualquier duda, ponga contacto con nosotros por e-mail："<a href="mailto:adnewer@Gmail.com">Enviar e-mail </a>.</string>
+    <string name="CLEAR_ALL_SETTINGS">Tutoriales de Morphing</string>
+    <string name="SAVE_IMAGE_TITLE">Guardar la imagen</string>
+    <string name="FIREWALL">Seleccione la línea para cortar la zona de deformación, sólo tiene que seleccionar los dos puntos extremos de cada línea cortado</string>
+    <string name="PENCIL3">Después puede dibujar una linea en cualquier lugar con comenzo de este punto</string>
+    <string name="CONTOUR_CONNECTION">Fallo de obtención de la línea de contorno, recuperalo por favor</string>
+    <string name="EDGE_PREFSET">Mantiene pulsando para selecciónar o rechazar el punto de la línea de contorno</string>
+    <string name="BRUSHSIZESET">Mantiene pulsando para ajustar el tamaño de la borrador</string>
+    <string name="sliderTitle">Morphing</string>
+    <string name="reloadTitle">Advertencia</string>
+    <string name="PIC11">Dibujar una línea de contorno para la deformación</string>
+    <string name="PIC12">Seleccionar el primer punto extremo de la linea de contorno</string>
+    <string name="PIC13">Seleccionar el otro punto extremo de la linea de contorno</string>
+    <string name="PIC14">Seleccionar el punto de arrastramiento</string>
+    <string name="PIC15">Haga clic de la pantalla para volver a colocar el punto de arrastramiento</string>
+    <string name="PIC16">Deslizar el control deslizante para cambiar la forma de la línea de contorno</string>
+    <string name="PIC18">Deslizar el control deslizante de nuevo para ajustar la definición</string>
+    <string name="PIC17">Generar imagen deformada</string>
+    <string name="PIC21">Genarar automaticamente la línea de contorno</string>
+    <string name="PIC22">Añadir o borrar la línea de contornos</string>
+    <string name="PIC24">El cambio a otra línea de contorno, un puntos extremo del contorno se mantienen sin cambios, sólo tiene que seleccionar otro punto y arrastrar</string>
+    <string name="PIC23">Cambiar la forma de la primera línea de contorno</string>
+    <string name="PIC25">Generar la imagen deformada</string>
+    <string name="PIC26">Deformar el otro ojo</string>
+    <string name="SMOOTHNESS">Suavidad</string>
+    <string name="SCALE">Tamaño</string>
+    <string name="GENERATE">Generar</string>
+    <string name="PENCILSHIFT">Haga clic en la pantalla para seleccionar el punto de comenzo de la línea</string>
+    <string name="TeachTitle">Método de Morphing</string>
+    <string name="START">comenzar</string>
+    <string name="SELECTENDPOINT">Por favor, seleccione el final de la línea de contorno</string>
+    <string name="SELECTSTARTPOINT">Por favor, seleccione el comenzo de la línea de contorno</string>
+    <string name="SELECTDRAGPOINT">Por favor, seleccione un punto de arrastramiento</string>
+    <string name="SELECTSECONDF">Por favor, seleccione el final de la línea cartada</string>
+    <string name="SELECTFIRSTF">Por favor, seleccione el comenzo de la línea cartada</string>
+    <string name="SLIDEAGAIN">Deslizar el control deslizante para ajustar la definición</string>
+    <string name="RECLICK">Haga clic de nuevo para actualizar el punto de comenzo</string>
+    <string name="SHAREPIC">Compartir fotos</string>
+    <string name="SHARE">Compartir a</string>
+</resources>

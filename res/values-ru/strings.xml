@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">новая морфинг</string>
+    <string name="EDGEPREFCHECK">преимущественно выбирать контурную точку</string>
+    <string name="SAVE_LOW_RES">малая четкость</string>
+    <string name="SAVE_HIGH_RES">полная четкость</string>
+    <string name="CANCEL">выходить</string>
+    <string name="Save">сохранять</string>
+    <string name="ERROR">ошибка:</string>
+    <string name="SAVE_FAILED">неудачно сохранять</string>
+    <string name="BRUSH_SIZE">размер щетки</string>
+    <string name="ERROR_LOAD">ошибка: нельзя скачивать картину</string>
+    <string name="ABOUT_WINDOW">"Новая морфинг является инструментом деформации изображения. Вы можете путем изменения формы габаритной линии в картине изменять форму предмета в картине, одновременно не влиять на недеформационную зону. Можно проводить автоматическую генерацию габаритной линии, и вы вручную добавляете, устраняете или восстанавливаете.
+Мы предлагаем, что вы сначала софтом проводите автоматическую генерацию габаритной линии, на основе этого с помощью предложенного софтом инструмента восстанавливаете габаритную линию, малый дефект в габаритной линии можете игнорировать, софт автоматически восстанавливает. Целый процесс, может быть, продолжает несколько минут, но на основе этого вы можете получать восхищенную деформационную картину. 
+
+После генерации деформационной картины вы, Перед выходом из диалога и можете продолжать скользить ползунок для регулирования четкости в деформационной зоне. 
+
+Мы надеемся на то, что вы весело играете, если у вас вопрос, связывайте с почтой: "<a href="mailto:adnewer@Gmail.com">посылать почту</a>.</string>
+    <string name="CLEAR_ALL_SETTINGS">курс обучения о морфинг</string>
+    <string name="SAVE_IMAGE_TITLE">сохранять картину</string>
+    <string name="FIREWALL">выбирать линию для отреза деформационной зоны, вам только нужно выбирать две конечных точки каждой линии отреза</string>
+    <string name="PENCIL3">потом вы можете из любого места рисовать одну линию с этой точки</string>
+    <string name="CONTOUR_CONNECTION">неудачно получать габаритную линию, восстанавливайте габаритную линию</string>
+    <string name="EDGE_PREFSET">долго нажать для настройки, преимущественно выбирать точку на габаритной линии или нет</string>
+    <string name="BRUSHSIZESET">долго нажать для настройки размера щетки</string>
+    <string name="sliderTitle">морфинг</string>
+    <string name="reloadTitle">тревога</string>
+    <string name="PIC11">рисовать габаритную линию для деформации</string>
+    <string name="PIC12">выбирать первую конечную точку габаритной линии</string>
+    <string name="PIC13">выбирать другую конечную точку габаритной линии</string>
+    <string name="PIC14">выбирать точку тащения</string>
+    <string name="PIC15">кликать экран, чтобы вновь ставить точку тащения</string>
+    <string name="PIC16">скользить ползунок для изменения формы габаритной линии</string>
+    <string name="PIC18">еще раз скользить ползунок для регулирования четкости</string>
+    <string name="PIC17">проводить генерацию деформационной картины</string>
+    <string name="PIC21">проводить автоматическую генерацию габаритной линии </string>
+    <string name="PIC22">добавлять или устранять габаритную линию</string>
+    <string name="PIC24">переключать в другую габаритную линию, конечная точка этой габаритной линии не изменяется, вам только нужно выбирать точку тащения</string>
+    <string name="PIC23">изменять форму первой габаритной линии</string>
+    <string name="PIC25">проводить генерацию деформационной картины</string>
+    <string name="PIC26">деформировать другой глаз</string>
+    <string name="SMOOTHNESS">гладкость</string>
+    <string name="SCALE">размер</string>
+    <string name="GENERATE">создавать</string>
+    <string name="PENCILSHIFT">кликать экран для выбора начальной точки рисованной линии</string>
+    <string name="TeachTitle">метод морфинг</string>
+    <string name="START">начинать</string>
+    <string name="SELECTENDPOINT">выбирать конечную точку габаритной линии</string>
+    <string name="SELECTSTARTPOINT">выбирать начальную точку габаритной линии</string>
+    <string name="SELECTDRAGPOINT">выбирать точку тащения</string>
+    <string name="SELECTSECONDF">выбирать конечную точку линии отреза</string>
+    <string name="SELECTFIRSTF">выбирать начальную точку линии отреза</string>
+    <string name="SLIDEAGAIN">скользить ползунок для регулирования четкости</string>
+    <string name="RECLICK">еще раз кликать для обновления начальной точки</string>
+    <string name="SHAREPIC">делиться картинами</string>
+    <string name="SHARE">делиться в</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="60px" android:src="@drawable/toonfx_logo_rainbow"/>
+    <ScrollView android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="0dip" android:layout_weight="1.0">
+        <TextView android:linksClickable="true" android:id="@id/aboutText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ABOUT_WINDOW"/>
+    </ScrollView>
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <ImageButton android:id="@id/aboutdismissBtn" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="5dp" android:background="@drawable/icon_checkmark"/>
+        <Button android:id="@id/clearAllSettings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CLEAR_ALL_SETTINGS" android:textSize="15sp" android:layout_marginLeft="30dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">새로운 변형</string>
+    <string name="EDGEPREFCHECK">우선선택 윤곽점</string>
+    <string name="SAVE_LOW_RES">낮은 해상도</string>
+    <string name="SAVE_HIGH_RES">고해상도</string>
+    <string name="CANCEL">종료</string>
+    <string name="Save">저장</string>
+    <string name="ERROR">오류:</string>
+    <string name="SAVE_FAILED">저장 실패</string>
+    <string name="BRUSH_SIZE">지우개 크기</string>
+    <string name="ERROR_LOAD">오류: 이미지를 로드할 수 없습니다</string>
+    <string name="ABOUT_WINDOW">"새로운 변형은 하나의 이미지 변형 도구 입니다. 당신은 이미지에 윤곽선으로 드래그하여 이미지상의 물체의형상을 바꿀 수 있고 변형지역은 영향을 받지 않게 합니다.윤곽선은 자동으로 생성되며，당신은 수동으로 윤곽선을 증가，수정할 수 있습니다.
+ 
+저희는 윤곽선은 자동으로 생성되기를 의견합니다. 게다가 이 프로그램은 제공하는 도구를 이용해서 윤곽선을 수정하고 윤곽선에 있는 작은 흠을 따지지 않아도 되고 자동으로 수정하겠습니다. 모든 과정은 몇분을 지속하는데 여기서 아주 놀라고 기쁘게 하는 변형이미지를 받을 것입니다.
+
+변형 이미지를 생성한，대화창 종료 전에 후에 다시 변형영역의 해상도 에서 슬라이드 하여 조정하셔도 됩니다.
+    
+저희는 당신이 즐겁게 사용하길 희망합니다.어떤 문제가 있으면 연락해 주세요："<a href="mailto:adnewer@Gmail.com">이메일</a>.</string>
+    <string name="CLEAR_ALL_SETTINGS">변형 자습서</string>
+    <string name="SAVE_IMAGE_TITLE">그림 저장</string>
+    <string name="FIREWALL">선택한 선으로 구역을 자르려면，당신은 모든선의 자르는 선의 양끝점이 필요합니다</string>
+    <string name="PENCIL3">이후에 당신은 어느곳에서도 점으로 시작하여 한 선을 그릴 수 있습니다</string>
+    <string name="CONTOUR_CONNECTION">윤곽선 획득 실패시，윤곽선을 수정하십시오</string>
+    <string name="EDGE_PREFSET">길게 누르면 우선선택 윤곽선상의 점을 늘리기를 설치합니다</string>
+    <string name="BRUSHSIZESET">길게 누르면 지우개 크기를 설치합니다</string>
+    <string name="sliderTitle">변형</string>
+    <string name="reloadTitle">경고</string>
+    <string name="PIC11">변형할수 있는 윤곽선을 그립니다</string>
+    <string name="PIC12">윤곽선의 첫번째 끝지점을 선택합니다</string>
+    <string name="PIC13">윤곽선의 다른 끝지점을 선택합니다</string>
+    <string name="PIC14">드래그 지점을 선택합니다</string>
+    <string name="PIC15">화면 클릭으로 드래그 지점 다시 선택합니다</string>
+    <string name="PIC16">슬라이드를 하여 윤곽선 형상을 변형합니다</string>
+    <string name="PIC18">다시 슬라이드 하여 선명도 조정합니다</string>
+    <string name="PIC17">변형이미지 생성합니다</string>
+    <string name="PIC21">자동생성 윤곽선</string>
+    <string name="PIC22">윤곽선 추가 혹은 삭제</string>
+    <string name="PIC24">잘라내어 다른 윤곽선으로 바꾸려면，윤곽선의 끝지점은 변형하지말고，드래그만 하면 됩니다</string>
+    <string name="PIC23">첫번째 윤곽선 형상으로 변경합니다</string>
+    <string name="PIC25">변형이미지 생성합니다</string>
+    <string name="PIC26">다른 한쪽 눈이 변형됩니다</string>
+    <string name="SMOOTHNESS">매끄러움 정도</string>
+    <string name="SCALE">크기</string>
+    <string name="GENERATE">생성</string>
+    <string name="PENCILSHIFT">화면을 클릭하여 선이 그려질 시작점 선택합니다</string>
+    <string name="TeachTitle">변형 방법</string>
+    <string name="START">시작</string>
+    <string name="SELECTENDPOINT">윤곽선의 끝점을 선택해주세요</string>
+    <string name="SELECTSTARTPOINT">윤곽선의 시작점을 선택해주세요</string>
+    <string name="SELECTDRAGPOINT">드래그 포인트를 선택하세요</string>
+    <string name="SELECTSECONDF">절단선 끝점을 선택하세요</string>
+    <string name="SELECTFIRSTF">절단선 시작점을 선택하세요</string>
+    <string name="SLIDEAGAIN">슬라이드 하여 선명도를 조정하세요</string>
+    <string name="RECLICK">갱신지점으로 다시 선택해 주세요</string>
+    <string name="SHAREPIC">이미지를 나눕니다</string>
+    <string name="SHARE">어디로 나눕니다</string>
+</resources>
